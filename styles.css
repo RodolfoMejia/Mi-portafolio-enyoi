@@ -152,11 +152,11 @@
   
   /* Responsividad */
   @media (max-width: 768px) {
-    .projects-grid {
+    .experience-grid {
       flex-direction: column;
     }
   
-    .project {
+    .experience {
       max-width: 90%;
     }
   
@@ -165,4 +165,12 @@
       gap: 0.5rem;
     }
   }
-  
+  @media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 90%;
+    }
+  }
